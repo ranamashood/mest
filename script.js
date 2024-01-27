@@ -1,3 +1,4 @@
-import { tag } from "./mest.js";
+h1("default heading");
 
-tag();
+h1(div("heading 1").attr("style", "color: red;"));
+h2(div("heading 2"), div("haha", h1("head")));
